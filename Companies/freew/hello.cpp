@@ -1,0 +1,1 @@
+//// Created by Frank Lin on 16/04/2022.//#include<iostream>#include <vector>using namespace std;class Solution{public:    void kk(vector<int> &nu){        int n =nu.size();        for(auto x:nu){            cout << x<<" ";        }    }};int main(){    vector<int>gg={1,2,3,4};    Solution().kk(gg);}
